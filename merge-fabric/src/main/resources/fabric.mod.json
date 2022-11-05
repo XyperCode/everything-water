@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "everythingwater-fabric",
+  "name": "Everything Water Wrapper",
   "version": "1.0.0",
   "custom": {
     "modmenu": {

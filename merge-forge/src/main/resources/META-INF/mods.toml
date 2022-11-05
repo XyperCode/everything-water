@@ -8,6 +8,7 @@ license = "LGPL-3.0"
 # The main mod, and all sub-mods.
 [[mods]]
 modId = "everythingwater_forge"
+displayName = "Everything Water Wrapper"
 description = '''
 Forge wrapper for anti-sleep mod
 '''
