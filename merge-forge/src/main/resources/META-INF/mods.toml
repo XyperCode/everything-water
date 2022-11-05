@@ -1,0 +1,14 @@
+# Mods.toml for the anti-sleep by ultreon
+# Copyright (c) 2022 - Ultreon Team, LGPLv3 License. See the license at https://www.gnu.org/licenses/lgpl-3.0-standalone.html
+
+modLoader = "javafml"
+loaderVersion = "*"
+license = "LGPL-3.0"
+
+# The main mod, and all sub-mods.
+[[mods]]
+modId = "everythingwater_forge"
+description = '''
+Forge wrapper for anti-sleep mod
+'''
+itemIcon = "minecraft:barrier"

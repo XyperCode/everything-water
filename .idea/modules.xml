@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common.iml" filepath="$PROJECT_DIR$/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fabric.iml" filepath="$PROJECT_DIR$/fabric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/forge.iml" filepath="$PROJECT_DIR$/forge.iml" />
+    </modules>
+  </component>
+</project>

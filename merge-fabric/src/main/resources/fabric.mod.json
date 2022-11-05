@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "id": "everythingwater-fabric",
+  "version": "1.0.0",
+  "custom": {
+    "modmenu": {
+      "badges": [
+        "library"
+      ],
+      "parent": "everythingwater"
+    }
+  }
+}

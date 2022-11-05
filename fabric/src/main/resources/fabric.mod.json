@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "everythingwater",
+  "version": "${version}",
+  "name": "Everythingwater",
+  "description": "Makes everything water and waterlogged in Minecraft",
+  "authors": [
+    "Qboi"
+  ],
+  "contact": {
+    "website": "https://qboi123.github.com/",
+    "repo": "https://github.com/Qboi123/everthing-water",
+    "issues": "https://github.com/Qboi123/everthing-water/issues"
+  },
+  "accessWidener": "everythingwater.accesswidener",
+  "license": "All-Rights-Reserved",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.qboi.mods.everythingwater.fabric.EverythingWaterFabric"
+    ]
+  },
+  "mixins": [
+    "everythingwater.mixins.json",
+    "everythingwater-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "minecraft": ">=1.19.1"
+  }
+}
