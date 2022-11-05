@@ -4,6 +4,7 @@
   "package": "me.qboi.mods.everythingwater.mixin.fabric",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "EntityMixin"
   ],
   "client": [
   ],
