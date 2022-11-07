@@ -12,7 +12,6 @@
     "repo": "https://github.com/Qboi123/everthing-water",
     "issues": "https://github.com/Qboi123/everthing-water/issues"
   },
-  "accessWidener": "everythingwater.accesswidener",
   "license": "All-Rights-Reserved",
   "icon": "icon.png",
   "environment": "*",
@@ -27,6 +26,7 @@
   ],
   "depends": {
     "fabricloader": ">=0.14.10",
-    "minecraft": ">=1.19.1"
+    "minecraft": ">=1.19.1",
+    "architectury": ">=6.2 <7"
   }
 }
