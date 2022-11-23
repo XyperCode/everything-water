@@ -6,6 +6,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.tags.FluidTags;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.material.Fluid;
@@ -22,21 +23,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.Set;
 
-@Mixin(Entity.class)
-public abstract class EntityMixin {
-    @Shadow protected boolean wasEyeInWater;
-
-    @Shadow @Final private Set<TagKey<Fluid>> fluidOnEyes;
-
-    @Shadow protected Object2DoubleMap<TagKey<Fluid>> fluidHeight;
-
-    @Shadow public abstract Vec3 position();
-
-    @Shadow public abstract Direction getDirection();
-
-    @Shadow public abstract BlockPos blockPosition();
-
-    @Inject(at = @At("HEAD"), method = "isEyeInFluid", cancellable = true)
+@Mixin(LivingEntity.class)
+public abstract class LivingEntityMixin {
+    @Inject(at = @At("HEAD"), method = "jumpInLiquid", cancellable = true)
     private void everythingWater$isEyeInFluid(TagKey<Fluid> tagKey, CallbackInfoReturnable<Boolean> cir) {
         if (tagKey == FluidTags.WATER) {
             cir.setReturnValue(true);
