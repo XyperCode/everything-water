@@ -43,7 +43,7 @@ public abstract class EntityMixin {
         }
     }
 
-    @Inject(at = @At("HEAD"), method = "cabSisEyeInFluid", cancellable = true)
+    @Inject(at = @At("HEAD"), method = "isEyeInFluid", cancellable = true)
     private void everythingWater$canSwimInFluid(TagKey<Fluid> tagKey, CallbackInfoReturnable<Boolean> cir) {
         if (tagKey == FluidTags.WATER) {
             cir.setReturnValue(true);
