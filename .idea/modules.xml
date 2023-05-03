@@ -3,6 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/common.iml" filepath="$PROJECT_DIR$/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/everything-water.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/everything-water.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/everything-water.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/everything-water.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/everything-water.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/everything-water.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/everything-water.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/everything-water.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/everything-water.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/everything-water.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/everything-water.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/everything-water.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/everything-water.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/everything-water.forge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/merge-fabric/everything-water.merge-fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/merge-fabric/everything-water.merge-fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/merge-fabric/everything-water.merge-fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/merge-fabric/everything-water.merge-fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/merge-forge/everything-water.merge-forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/merge-forge/everything-water.merge-forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/merge-forge/everything-water.merge-forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/merge-forge/everything-water.merge-forge.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/fabric.iml" filepath="$PROJECT_DIR$/fabric.iml" />
       <module fileurl="file://$PROJECT_DIR$/forge.iml" filepath="$PROJECT_DIR$/forge.iml" />
     </modules>
